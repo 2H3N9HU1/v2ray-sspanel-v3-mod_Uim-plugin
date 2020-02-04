@@ -319,3 +319,8 @@ Caddyfile
   }
 }
 ~~~
+mkdir v2ray-agent  &&  \
+cd v2ray-agent && \
+curl https://raw.githubusercontent.com/2H3N9HU1/v2ray-sspanel-v3-mod_Uim-plugin/master/install.sh -o install.sh && \
+chmod +x install.sh && \
+bash install.sh
